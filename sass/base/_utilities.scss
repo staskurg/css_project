@@ -14,4 +14,19 @@
       margin-bottom: 8rem;
     }
   }
+
+  &-top {
+    &-small {
+      margin-bottom: 1.5rem;
+    }
+    &-medium {
+      margin-bottom: 4rem;
+    }
+    &-big {
+      margin-bottom: 8rem;
+    }
+    &-huge {
+      margin-bottom: 10rem;
+    }
+  }
 }
