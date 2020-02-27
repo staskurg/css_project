@@ -1,32 +1,18 @@
 .u-center-text {
-  text-align: center;
+  text-align: center !important;
 }
 
 .u-margin {
   &-bottom {
-    &-small {
-      margin-bottom: 1.5rem;
-    }
-    &-medium {
-      margin-bottom: 4rem;
-    }
-    &-big {
-      margin-bottom: 8rem;
-    }
+    &-small { margin-bottom: 1.5rem !important; }
+    &-medium { margin-bottom: 4rem !important; }
+    &-big { margin-bottom: 8rem !important; }
   }
 
   &-top {
-    &-small {
-      margin-bottom: 1.5rem;
-    }
-    &-medium {
-      margin-bottom: 4rem;
-    }
-    &-big {
-      margin-bottom: 8rem;
-    }
-    &-huge {
-      margin-bottom: 10rem;
-    }
+    &-small { margin-bottom: 1.5rem !important; }
+    &-medium { margin-bottom: 4rem !important; }
+    &-big { margin-bottom: 8rem !important; }
+    &-huge { margin-bottom: 10rem !important; }
   }
 }
